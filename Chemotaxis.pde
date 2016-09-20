@@ -1,13 +1,21 @@
-
  void setup()   
  {     
  	size (400, 400);
  }   
  void draw()   
  {    
- 	//move and show the bacteria   
- }  
+ 	background(0,100,255);	
+
+ }
  class Bacteria    
- {     
- 	//lots of java!   
- }    
+ 	{     
+ 		int myX, myY, size;
+ 		Bacteria(int x, int y)
+ 		{
+ 			myY = y;
+ 			myX = x;
+ 			
+ 		}  
+ 	}
+ 
+ 
