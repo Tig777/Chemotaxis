@@ -13,9 +13,11 @@
  		Bacteria(int x, int y)
  		{
  			myY = y;
- 			myX = x;
- 			
+ 			myX = x;	
  		}  
  	}
  
- 
+ void show()
+ 	{
+ 		ellipse(myX +10,myY +20,10,10);
+ 	}
