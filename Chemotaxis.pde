@@ -24,11 +24,9 @@ Bacteria [] colony;
  		Bacteria()
  		{
  			myY = 200;
- 			myX = 200;
- 			move();
- 			
+ 			myX = 200;	
  		}  
- 	}
+ 	
  
   void move()
   {
@@ -41,4 +39,4 @@ Bacteria [] colony;
  		fill(int(random (253)),int(random(253)), int(random(253)));
  		ellipse(myX,myY, 25,25);
  	}
-
+}
