@@ -2,7 +2,7 @@ Bacteria [] colony;
  void setup()   
  {     
  	size (400, 400);
- 	background (200);
+ 	background (10);
  	colony = new Bacteria [50];
  	for (int i = 0; i < colony.length; i++)
   {
@@ -30,8 +30,8 @@ Bacteria [] colony;
  
   void move()
   {
-	myX = myX +(int)(Math.random()*5)-1;
- 	myY = myY +(int)(Math.random()*5)-1;
+	myX = myX +(int)(Math.random()*3)-1;
+ 	myY = myY +(int)(Math.random()*3)-1;
   }
  	
  void show()
